@@ -26,7 +26,7 @@ const burger = (props) => {
         }, []);
         // komentarz po polsku co się tu dzieje
         // stan składników jest obiektem, transformujemy te obiekty do arrajki
-        // zwracamy arrajkę z parami klucz:wartość, natomiast zwrócona wartość w returnie to tablica z pojedynczymi stanami
+        // zwracamy arrajkę z parami klucz:wartość, natomiast zwrócona wartość w returnie to tablica, która zawiera tablice z pojedynczymi stanami
         // więc jeżeli mamy sytuację, że wszystkie składniki to 0, musimy zredukować wartość arrajki
         // następnie dodajemy wszystkie składniki osobno jeśli stan transformedIngridients > 0 
         // jeśli < 0 wyrzucamy komunikat 
