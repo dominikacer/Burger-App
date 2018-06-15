@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Aux from '../Aux/Aux';
+import Aux from '../Component/Aux';
 
 // import styles
 import classes from './Layout.css';
