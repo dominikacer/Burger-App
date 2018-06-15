@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Order from '../../components/Order/Order';
 import axios from '../../axios-orders';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
+import classes from './Orders.css';
 
 class Orders extends Component {
     state = {
@@ -29,7 +30,7 @@ class Orders extends Component {
 
     render () {
         return (
-            <div>
+            <div className={classes.Orders}>
                 {this.state.orders.map(order => (
                     <Order 
                         key={order.id}
