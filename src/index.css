@@ -1,7 +1,5 @@
-/* global styles */
 body {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans"; 
-  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }

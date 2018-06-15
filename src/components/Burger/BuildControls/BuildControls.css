@@ -1,10 +1,10 @@
 .BuildControls {
     width: 100%;
-    background: linear-gradient(to right, rgba(107,173,79,1) 0%,rgba(30,105,222,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-color: #CF8F2E;
     display: flex;
     flex-flow: column;
     align-items: center;
-    box-shadow: 0 4px 1px #ccc;
+    box-shadow: 0 2px 1px #ccc;
     margin: auto;
     padding: 10px 0;
 }
